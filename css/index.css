@@ -114,6 +114,7 @@ body{
 /* 头部种的navbar */
 #lk_header .navbar-lk{
     background-color: #fff;
+    margin-bottom: 0;
 }
 #lk_header .navbar-lk .navbar-brand{
     height: 70px;
