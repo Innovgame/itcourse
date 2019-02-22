@@ -94,6 +94,7 @@ body{
     left:50%; 
     margin-left: -60px;
     margin-top:-10px;
+    z-index: 9999;
 }
 #lk_header .top-bar .container .row .top-bar-1 a:hover img{
     display:block;
@@ -109,5 +110,25 @@ body{
 #lk_header .icon-tel::before{
     content:'\e942';
     font-size: 13px;
+}
+/* 头部种的navbar */
+#lk_header .navbar-lk{
+    background-color: #fff;
+}
+#lk_header .navbar-lk .navbar-brand{
+    height: 70px;
+    padding:10px 15px;
+}
+#lk_header .navbar-lk .navbar-nav a{
+    height: 70px;
+    line-height: 40px;
+}
+#lk_header .navbar-lk .navbar-nav li.active a,
+#lk_header .navbar-lk .navbar-nav li a:hover{
+    background-color:transparent;
+    border-bottom: 2px solid #0AB4F7;
+}
+#lk_header .navbar-lk .navbar-toggle{
+    margin-top: 18px;
 }
 /********************* /头部的样式 ****************************/
