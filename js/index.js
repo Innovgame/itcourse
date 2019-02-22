@@ -16,10 +16,19 @@ $(function(){
             let src=isShowBigImg ? $(item).data("lg-img") : $(item).data("sm-img");
             let allSrc='url("'+src+'")';//es6语法：`url("${src}")`;
             
-            // 4.2设置背景
-            $(item).css({
-                backgroundImage:allSrc
-            });
+            if(isShowBigImg){
+                // 清空子元素
+                $(item).empty();
+                // 4.2设置背景
+                $(item).css({
+                    backgroundImage:allSrc
+                });
+            }else{
+                let $img=`
+                    <img src='${src}' alt='轮播图'>
+                `;
+                $(item).empty().append($img);
+            }
         });
     });
     $(window).trigger("resize");
