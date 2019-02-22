@@ -3,6 +3,54 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
 }
+/* 按钮样式 */
+/* bootstrap自动生成按钮样式地址：http://blog.koalite.com/bbg/ */
+.btn-register { 
+    color: #fff; 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-register:hover, 
+  .btn-register:focus, 
+  .btn-register:active, 
+  .btn-register.active, 
+  .open .dropdown-toggle.btn-register { 
+    color: #fff; 
+    background-color: #086DF2; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-register:active, 
+  .btn-register.active, 
+  .open .dropdown-toggle.btn-register { 
+    background-image: none; 
+  } 
+   
+  .btn-register.disabled, 
+  .btn-register[disabled], 
+  fieldset[disabled] .btn-register, 
+  .btn-register.disabled:hover, 
+  .btn-register[disabled]:hover, 
+  fieldset[disabled] .btn-register:hover, 
+  .btn-register.disabled:focus, 
+  .btn-register[disabled]:focus, 
+  fieldset[disabled] .btn-register:focus, 
+  .btn-register.disabled:active, 
+  .btn-register[disabled]:active, 
+  fieldset[disabled] .btn-register:active, 
+  .btn-register.disabled.active, 
+  .btn-register[disabled].active, 
+  fieldset[disabled] .btn-register.active { 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-register .badge { 
+    color: #0AB4F7; 
+    background-color: #fff; 
+  }
+  /* /按钮样式 */
 /******************** 设置通用样式 ***************************/
 
 /********************* 头部的样式 *****************************/
@@ -30,6 +78,9 @@ body{
 }
 #lk_header .top-bar .container .row .top-bar-1 a:hover img{
     display:block;
+}
+#lk_header .top-bar .container .row .top-bar-4 a:nth-child(2){
+    margin-left: 10px;
 }
 
 /********************* /头部的样式 ****************************/
