@@ -3,6 +3,7 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
 }
+
 /* 按钮样式 */
 /* bootstrap自动生成按钮样式地址：http://blog.koalite.com/bbg/ */
 .btn-register { 
@@ -51,6 +52,24 @@ body{
     background-color: #fff; 
   }
   /* /按钮样式 */
+
+  /* 字体图片  icomoon https://icomoon.io/*/
+  /* 引入字体样式 */
+  @font-face{
+      font-family: lk;
+      src:url("../fonts/lk.eot") format("embedded-opentype");
+      src:url('../fonts/lk.svg') format('svg');
+      src: url('../fonts/lk.ttf') format('truetype');
+      src: url('../fonts/lk.woff') format('woff');
+  }
+  /* 为前缀为icon的田间字体图片 */
+  [class^='icon-'],
+  [class*='icon-']{
+      font-family: lk;
+      font-style: normal;
+  }
+  /* /字体图片 */
+
 /******************** 设置通用样式 ***************************/
 
 /********************* 头部的样式 *****************************/
@@ -83,4 +102,12 @@ body{
     margin-left: 10px;
 }
 
+#lk_header .icon-phone::before{
+    content:'\e958';
+    font-size: 13px;
+}
+#lk_header .icon-tel::before{
+    content:'\e942';
+    font-size: 13px;
+}
 /********************* /头部的样式 ****************************/
