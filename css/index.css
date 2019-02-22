@@ -1,9 +1,36 @@
-/* 设置通用样式 */
+/******************** 设置通用样式 ***************************/
 body{
     font-size: 13px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
 }
-.container{
-    background-color: #f00;
-} 
+/******************** 设置通用样式 ***************************/
+
+/********************* 头部的样式 *****************************/
+#lk_header{
+
+}
+#lk_header .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom:1px solid #e0e0e0;
+}
+#lk_header .top-bar .container .row>div+div{
+    border-left: 1px solid #e0e0e0;
+}
+#lk_header .top-bar .container .row .top-bar-1 a{
+    position: relative;
+}
+#lk_header .top-bar .container .row .top-bar-1 a img{
+    display:none;
+    width: 120px;
+    position: absolute;
+    left:50%; 
+    margin-left: -60px;
+    margin-top:-10px;
+}
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+    display:block;
+}
+
+/********************* /头部的样式 ****************************/
