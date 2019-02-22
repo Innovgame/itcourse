@@ -64,7 +64,7 @@ body{
   }
   /* 为前缀为icon的田间字体图片 */
   [class^='icon-'],
-  [class*='icon-']{
+  [class*=' icon-']{
       font-family: lk;
       font-style: normal;
   }
