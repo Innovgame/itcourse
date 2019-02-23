@@ -31,9 +31,31 @@ $(function(){
             }
         });
     });
+
+    // 模态框
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    //3.1获取选项卡的宽度
+    $(window).on("resize",function(){
+        let $ul=$("#lk_product .nav");
+        let $allLi=$("[role='presentation']",$ul);
+        //3.1.1获取宽度和
+        let totalW=0;
+        $allLi.each(function(index,item){
+            totalW+=$(item).width();
+        });
+
+        let parentW=$ul.parent().width();
+        // 3.1.2设置宽度
+        if(totalW>parentW){
+            $ul.css({
+                width:totalW+'px'
+            });    
+        }else{
+            $ul.removeAttr("style");
+        }
+    });
     $(window).trigger("resize");
 });
-
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
