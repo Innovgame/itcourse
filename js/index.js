@@ -57,5 +57,11 @@ $(function(){
             $ul.removeAttr("style");
         }
     });
+
+    // 导航滚动
+    let navLis=$("#lk_nav li");
+    $(navLis[2]).on("click",function(){
+        $("html,body").animate({scrollTop:$("#lk_hot").offset().top},1000);
+    });
     $(window).trigger("resize");
 });
