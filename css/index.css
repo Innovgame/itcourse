@@ -184,8 +184,43 @@ body{
     border-bottom: 2px solid #0AB4F7;
     background-color:transparent;
 }
+#lk_product #product_one_1 {
+    margin:15px 0;
+}
 #lk_product #product_one_1 img{
     width:140px;
+}
+#lk_product #product_one_1 .media-body{
+    padding-top: 100px;
+}
+#lk_product #product_one_2{
+    background-color: transparent;
+}
+#lk_product #product_one_4{
+    margin: 15px 0;
+}
+#lk_product #product_one_4 div{
+    margin-right: 5px; 
+}
+#lk_product .tab-content .pd-top{
+    padding:40px 0;
+}
+#lk_product .tab-content .img-top{
+    padding:20px 0;
+}
+#lk_product #pd_two_1{
+    padding:100px 0;
+}
+#lk_product #pd_two_1 h1{
+    padding:15px 0;
+}
+#lk_product #pd_third_1 h3,
+#lk_product #pd_third_1 h4{
+    margin: 20px 0;
+}
+#lk_product #pd_third_1 .badge{
+    padding:15px 10px;
+    cursor: pointer;
 }
 /********************* /产品特色的样式 ****************************/
 
