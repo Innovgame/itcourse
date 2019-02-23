@@ -52,7 +52,7 @@
                         <a href="#" class="btn btn-default btn-sm btn-register" role="button">
                             免费注册
                         </a>
-                        <a href="#" class="text-muted" role="button">
+                        <a href="#" class="text-muted" role="button" data-toggle="modal" data-target="#lk_login">
                             立即登陆
                         </a>
                     </div>
@@ -417,6 +417,32 @@
         </div>
     </footer>
     <!-- /尾部 -->
+
+    <!-- 模态框 -->
+    <!-- Modal -->
+    <div class="modal fade" id="lk_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">登陆</h4>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <p>
+                        用户名：<input type="text">
+                    </p>
+                    <p>密码：<input type="password"></p>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              <button type="button" class="btn btn-primary">登陆</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- /模态框 -->
 
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="./lib/jquery/jquery.js"></script>
