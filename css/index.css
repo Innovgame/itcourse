@@ -255,4 +255,49 @@ body{
 }
 /********************* /友情链接的样式 ****************************/
 
+/********************* 尾部的样式 ****************************/
+#lk_footer{
+    font-size: 16px;
+    background: url("../img/ft_bg.png") no-repeat center;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background-size: cover; 
+}
+#lk_footer .container .row{
+    padding-top: 10px;
+}
+#lk_footer ul{
+    list-style:none;
+}
+#lk_footer .ft-one,#lk_footer .ft-two{
+    padding:10px;
+    border-right: 1px solid #666;
+    height:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lk_footer .ft-one li{
+    line-height: 40px;
+}
+#lk_footer .ft-three{
+    padding:10px 50px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#lk_footer .ft-three a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+#lk_footer .ft-one li a{
+    color:#fff;
+}
+
+/********************* /尾部的样式 ****************************/
+
 

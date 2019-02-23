@@ -33,3 +33,7 @@ $(function(){
     });
     $(window).trigger("resize");
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
